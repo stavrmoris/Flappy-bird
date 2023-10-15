@@ -6,22 +6,23 @@ public class MoveUp : MonoBehaviour
 {
     public float JumpForce;
     private Rigidbody2D rb;
-    Transform tf;
     public float Spead;
+    public Animator anim;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        tf = GetComponent<Transform>();
+        anim = GetComponent<Animator>();
     }
-
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce (new Vector2(transform.position.x, JumpForce));
+            rb.AddForce(Vector2.up * (JumpForce - rb.velocity.y), ForceMode2D.Impulse);
+            anim.SetTrigger("Fly");
         }
 
-        tf.position = (new Vector2(transform.position.x * Spead, transform.position.y));
+        rb.MoveRotation(rb.velocity.y * Spead);
     }
 }
