@@ -6,6 +6,7 @@ TagManager:
   tags:
   - XYI
   - Coins
+  - killZone
   layers:
   - Default
   - TransparentFX

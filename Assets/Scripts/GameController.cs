@@ -1,53 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Serialization;
 
 public class GameController : MonoBehaviour
 {
-    public TextMeshProUGUI ScoreText;
-    public TextMeshProUGUI RecordScoreText;
+    [FormerlySerializedAs("ScoreText")] public TextMeshProUGUI scoreText;
+    [FormerlySerializedAs("RecordScoreText")] public TextMeshProUGUI recordScoreText;
+    [FormerlySerializedAs("coinsText")] public TextMeshProUGUI coinsText;
 
-    public int Score = 0;
-    public int RecordScore;
+    [FormerlySerializedAs("Score")] public float score = 0;
+    [FormerlySerializedAs("RecordScore")] public float recordScore = 0;
 
-    private Transform obj;
+    private Transform _obj;
+    public Coins coinsMananger;
 
     void Start()
     {
-        obj = GetComponent<Transform>();
-        RecordScore = PlayerPrefs.GetInt("RREcordScore");
-
+        _obj = GetComponent<Transform>();
+        recordScore = PlayerPrefs.GetInt("RREcordScore");
+        coinsMananger = GameObject.Find("CoinsMananger").GetComponent<Coins>();
     }
-
-
+    
     void FixedUpdate()
     {
-        ScoreText.text = Score.ToString();
-        RecordScoreText.text = RecordScore.ToString();
-        if(obj.position.y > 5.04)
+        recordScore = PlayerPrefs.GetFloat("RecordScore");
+        
+        scoreText.text = score.ToString(CultureInfo.InvariantCulture);
+        recordScoreText.text = recordScore.ToString(CultureInfo.InvariantCulture);
+        coinsText.text = coinsMananger.coins.ToString(CultureInfo.InvariantCulture);
+        
+        if(_obj.position.y > 5.04)
         {
             Destroy(gameObject);
         }
-        if (RecordScore < Score )
+        
+        if (recordScore < score)
         {
-            PlayerPrefs.SetInt("RREcordScore", Score);
+            PlayerPrefs.SetFloat("RecordScore", score);
         }
     }
 
-    void OnCollisionEnter2D(Collision2D Col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if(Col.gameObject.tag == "XYI")
+        if(col.gameObject.CompareTag("killZone"))
         {
            Destroy(gameObject); 
         }
     }
-
     
-
-
-
     void Awake()
     {
         StartCoroutine(Bonus());
@@ -55,11 +59,11 @@ public class GameController : MonoBehaviour
 
     IEnumerator Bonus()
     {
-        while(true)
-        {
-        
 
-        yield return new WaitForSeconds(5);
-        Score += 5; }
+        do
+        {
+            yield return new WaitForSeconds(1f);
+            score += 1;
+        } while (true);
     }
 }
