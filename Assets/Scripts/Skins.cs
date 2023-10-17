@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Magazine : MonoBehaviour
+public class Skins : MonoBehaviour
 {
     [SerializeField] public GameObject[] skin;
 
@@ -17,21 +16,6 @@ public class Magazine : MonoBehaviour
                 skin[i].SetActive(false);
             else
             {
-                PlayerPrefs.SetFloat("ActiveSkin", count);
-                skin[i].SetActive(true);
-            }
-        }
-    }
-
-    public void GetSkin(int count)
-    {
-        for(int i = 0; i < skin.Length; i++)
-        {
-            if(i != count)
-                skin[i].SetActive(false);
-            else
-            {
-                PlayerPrefs.SetInt("ActiveSkin", count);
                 skin[i].SetActive(true);
             }
         }

@@ -17,6 +17,7 @@ public class Emerald : MonoBehaviour
         if(col.gameObject.name == "Chicken")
         {
             _coinsMananger.coins++;
+            PlayerPrefs.SetInt("Coins", _coinsMananger.coins);
             Destroy(gameObject); 
         }
         

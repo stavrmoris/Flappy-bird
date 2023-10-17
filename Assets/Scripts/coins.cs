@@ -5,7 +5,12 @@ using UnityEngine;
 
 public class Coins : MonoBehaviour
 {
-    public float coins;
+    public int coins;
 
-    public void Update() => DontDestroyOnLoad(this.gameObject);
+    void Start() => coins = PlayerPrefs.GetInt("Coins");
+    
+    public void Update()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 }
