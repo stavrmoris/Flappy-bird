@@ -18,11 +18,14 @@ public class GameController : MonoBehaviour
     private Transform _obj;
     public Coins coinsMananger;
 
+    public KillZone KZ;
+
     void Start()
     {
         _obj = GetComponent<Transform>();
         recordScore = PlayerPrefs.GetInt("RREcordScore");
         coinsMananger = GameObject.Find("CoinsMananger").GetComponent<Coins>();
+        KZ = GameObject.Find("Main Camera").GetComponent<KillZone>();
     }
     
     void FixedUpdate()
@@ -35,7 +38,9 @@ public class GameController : MonoBehaviour
         
         if(_obj.position.y > 5.04)
         {
+            KZ.CollisionKillZone = true;
             Destroy(gameObject);
+            
         }
         
         if (recordScore < score)
@@ -48,7 +53,8 @@ public class GameController : MonoBehaviour
     {
         if(col.gameObject.CompareTag("killZone"))
         {
-           Destroy(gameObject); 
+            KZ.CollisionKillZone = true;
+            Destroy(gameObject); 
         }
     }
     
