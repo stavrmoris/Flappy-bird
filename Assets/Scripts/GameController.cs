@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
 {
     [FormerlySerializedAs("ScoreText")] public TextMeshProUGUI scoreText;
     [FormerlySerializedAs("RecordScoreText")] public TextMeshProUGUI recordScoreText;
+    [FormerlySerializedAs("ScoreText")] public TextMeshProUGUI scoreText2;
     [FormerlySerializedAs("coinsText")] public TextMeshProUGUI coinsText;
 
     [FormerlySerializedAs("Score")] public float score = 0;
@@ -18,14 +19,14 @@ public class GameController : MonoBehaviour
     private Transform _obj;
     public Coins coinsMananger;
 
-    public KillZone KZ;
+    [FormerlySerializedAs("Kill zone")] public KillZone kz;
 
     void Start()
     {
         _obj = GetComponent<Transform>();
         recordScore = PlayerPrefs.GetInt("RREcordScore");
         coinsMananger = GameObject.Find("CoinsMananger").GetComponent<Coins>();
-        KZ = GameObject.Find("Main Camera").GetComponent<KillZone>();
+        kz = GameObject.Find("Main Camera").GetComponent<KillZone>();
     }
     
     void FixedUpdate()
@@ -33,12 +34,14 @@ public class GameController : MonoBehaviour
         recordScore = PlayerPrefs.GetFloat("RecordScore");
         
         scoreText.text = score.ToString(CultureInfo.InvariantCulture);
+        if(!kz.CollisionKillZone)
+            scoreText2.text = score.ToString(CultureInfo.InvariantCulture);
         recordScoreText.text = recordScore.ToString(CultureInfo.InvariantCulture);
         coinsText.text = coinsMananger.coins.ToString(CultureInfo.InvariantCulture);
         
         if(_obj.position.y > 5.04)
         {
-            KZ.CollisionKillZone = true;
+            kz.CollisionKillZone = true;
             Destroy(gameObject);
             
         }
@@ -53,7 +56,7 @@ public class GameController : MonoBehaviour
     {
         if(col.gameObject.CompareTag("killZone"))
         {
-            KZ.CollisionKillZone = true;
+            kz.CollisionKillZone = true;
             Destroy(gameObject); 
         }
     }

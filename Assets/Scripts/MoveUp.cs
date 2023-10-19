@@ -14,9 +14,25 @@ public class MoveUp : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
+    
+    void OnMouseDown()
 
+    {
+        rb.AddForce(Vector2.up * (JumpForce - rb.velocity.y), ForceMode2D.Impulse);
+        anim.SetTrigger("Fly");
+    }
+    
     void Update()
     {
+        foreach (Touch touch in Input.touches) {
+
+            if (touch.fingerId == 0) {
+                if (Input.GetTouch(0).phase == TouchPhase.Began) {
+                    rb.AddForce(Vector2.up * (JumpForce - rb.velocity.y), ForceMode2D.Impulse);
+                    anim.SetTrigger("Fly");
+                }
+            }
+        }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(Vector2.up * (JumpForce - rb.velocity.y), ForceMode2D.Impulse);
