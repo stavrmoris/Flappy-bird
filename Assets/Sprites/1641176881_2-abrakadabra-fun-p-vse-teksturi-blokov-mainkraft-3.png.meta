@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,6 +119,58 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -127,9 +179,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2238
+        y: 2400
         width: 160
-        height: 173
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,72 +199,9 @@ TextureImporter:
       name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_1
       rect:
         serializedVersion: 2
-        x: 639
-        y: 2411
+        x: 160
+        y: 2400
         width: 160
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30726272691db41408e3205a0e2d0c29
-      internalID: 68486713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_2
-      rect:
-        serializedVersion: 2
-        x: 639
-        y: 2087
-        width: 161
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 184b4fe73897c9e43b743227fb6f5e01
-      internalID: 1248888574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_3
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 1441
-        width: 159
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c4c34891920a734bb0a9a4dd4e61fed
-      internalID: -1346741464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_4
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 481
-        width: 161
         height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,8 +210,5342 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2173a5ce459654db012a69a8a469fe
-      internalID: 1621183288
+      spriteID: 86c3476a36a895a48b52f5493e0035c6
+      internalID: 80337736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1b4a4871a7f4e459bef4f912335d80
+      internalID: 558435801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2547376f8870e04eb6e6802da931a20
+      internalID: 295286059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59af71e167738842b43b68c016c0e5e
+      internalID: 1538956488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dae0fdc17a261549a4905aea39e59e9
+      internalID: -1941850602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41d329d905dfa749b04dfbfc6e8cdb5
+      internalID: 493157159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9649598cfda1d4a9f89c6856e0202d
+      internalID: 682024603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd00571c6fd6ee43a9e8cfc9ecc7091
+      internalID: 683911040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ed3a1c39a8db47998f31bc363cea1
+      internalID: -2136913910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408ef902d2454a94a8ee4b071754507d
+      internalID: 1596448242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b3e537446f56b49a1b780de793c74a
+      internalID: 498468270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e9c5393484da418e4c6f8619f040d
+      internalID: 841391187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_13
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c66c07755eb447b83f358df532e46
+      internalID: 1326364486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_14
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b641105dde5bdae4daea0456aec71a9d
+      internalID: 811930657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590313991e7e7544be3831de8cdce9b
+      internalID: 1051901794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d24fd94a365726448f016d8f574118d
+      internalID: 559926681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3bf777437bd9e43ae3f5e96840fb7a
+      internalID: -166656141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ed726aa2335c74d80c35f87807a4bb
+      internalID: -599942361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345f6aa4e9abd224896aec40f86d0ada
+      internalID: -2128051434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2988518336fec0641a0c1f5ea8678b11
+      internalID: -1173999922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290be6bb22d105244946b709f0906040
+      internalID: 1231778307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047f903ab48491a4e98dac7315f461f8
+      internalID: -2119953268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_23
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae4ca37d8973724abcdd4ba834aab3c
+      internalID: 1538644044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_24
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284d0f0028f5b5e4ea150636a626069e
+      internalID: -1947693836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_25
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b33713875f3b49af23f36c29ff9e0
+      internalID: 1192778923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf6a1c595dbe4a49963c4ce07497115
+      internalID: 2094008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_27
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e3d33bef5c70439ba9a1a43fbb6d4
+      internalID: 852043740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b118b2bf38be63249a38b9a8eeb92232
+      internalID: -968859601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_29
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226842aa8eb2f1c45bc1885a9db39106
+      internalID: -591305398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_30
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42edbefd8873e734880d04178c8d259e
+      internalID: 430731036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_31
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2240
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03477e1b2e37a2a4883303ce59f1720d
+      internalID: -1277265425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c855ced5befdc4e9ebcb82b737ec5a
+      internalID: -667973466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d771bdb8816586e46968d5201a5b3f27
+      internalID: -1683028162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cedadda01391f746adb8fc4f523e418
+      internalID: 276236694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1425167aaafb21f44a7d16ecb236ff5b
+      internalID: -1294721992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f8dea19b1d00144bf2e552d1ab748d
+      internalID: 217532028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e98936c2b9af4c8451f63d6394742
+      internalID: 1270778152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7280499b0c9fbb4ebc91061ba2b636e
+      internalID: 1204071289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_39
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91967a46138c634787eb42ef4e3559e
+      internalID: -2088458687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dd303148a1c7c41b93546abf9d7cb6
+      internalID: 858212614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_41
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb975826aa28e748a77350cdf5fe33c
+      internalID: 1698218745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_42
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cc3978a671e6c45bacf0c3dc0ad330
+      internalID: -2134848610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_43
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8013ec25cbc651f4eaf814feb32f692f
+      internalID: 1514479705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1365fb22898621e438b4f70eb03c3d4f
+      internalID: 500608433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_45
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67020f08add975408d868039008fb21
+      internalID: 1882280551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_46
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470386265ab929f45b9455bd8b14b95b
+      internalID: 812968608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_47
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2080
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5234cf2efcdfe468cb2f9dcabb009e
+      internalID: -908488463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa095ba1f177d74fa4522c9aff82807
+      internalID: -621895505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7bb383c81ea6d459a008e3d88c6803
+      internalID: 224237598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2783b368b56fd5442853b066c449ca68
+      internalID: 1652981279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b5d75ea0058b44c9b9cfc133a4a9cb
+      internalID: -1859386224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088d2f6f8ba6734589d36ccdb4554ab
+      internalID: -1465057746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c2a4f1bccd674385b994236fe8f66
+      internalID: 1403382216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_54
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e813f59868cf14fb4ea944246c7494
+      internalID: -1758600068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_55
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084365a35c0bdc9409e9cbd038dca906
+      internalID: 520759902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_56
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deef8f9c7f528d14f95bbc66b2d2550e
+      internalID: -1116226290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_57
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb70bf97d77b7c4eba493b5df78c23e
+      internalID: 1184840272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3629d5bf6f78b1f4abcd2e01238ff864
+      internalID: -278594455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_59
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d73720a7044d82479a5f2ab65156f6c
+      internalID: 942192322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_60
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a036c6bd7d1b1314b824511101a9a4e8
+      internalID: -1112568446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_61
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e50015a71dbe748b0fe99eaf34100b
+      internalID: 739618346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_62
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b93d805d7e4746aa80276ccd5a6d8
+      internalID: -651482510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_63
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047a3221c4c0ef4cbc8c5824aa7fc21
+      internalID: 2071266738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f6ee47f56fbc646a79613b5ab5136a
+      internalID: 693312492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33725bdd5cae7e84ba7fc20cab1cfe54
+      internalID: 708586039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c856760e0b49ba47af5f610c65ebbde
+      internalID: 1837569618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ebebbbaf6e48a4bbfbe26feb97411d
+      internalID: 1367622395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87157876f429c4c4e94782c0d32405e8
+      internalID: 1962036812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_69
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519d6787f5b25444a4dce10a46b59b9
+      internalID: 200645700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_70
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77714751be31004c994358314937c15
+      internalID: 1716754622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_71
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4af998fd43300440b913b974194ea78
+      internalID: 1273547546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_72
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa32d663fb796004cb5f2e048a781476
+      internalID: -2110498647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_73
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae47476d44204fc4196405e7481b356e
+      internalID: -1064870921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_74
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e928c72e33a968d47ad54ceb43ff757b
+      internalID: 672952746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_75
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312ba42307d8748469b7761199bbc2a0
+      internalID: -111650320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_76
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec1f6eb8fcfc24f88379e52618957b
+      internalID: -244249357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_77
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921e6429dd086574d97ca80f3cc5f391
+      internalID: -998567182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_78
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c73a99b3c53ce4f8ce9761a24cf6fd
+      internalID: 771083034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_79
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1760
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cee29f0c03a7c4ea7234a9fa6d80a2
+      internalID: -1147900935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4942ef67b5ed1304c81270d06b4e6ea1
+      internalID: 228532453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096757170bcbb6f4884eaeb339280726
+      internalID: -1967578789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9244dcbf998b4874cb471d6a481029bf
+      internalID: 1144521508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fc57387a533504baab855bf5f63acd
+      internalID: 47915199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e19bd99124043c41ba265d11abed02b
+      internalID: 1295056747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_85
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1006cfcb14aaa744595ad7984fb8893a
+      internalID: 1361184321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_86
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc2664f91dd364ba39ccdc1f81e785
+      internalID: 402994780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_87
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c0306675770ce46a953cdcb3ce3cf7
+      internalID: 1055642329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_88
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea42e809872d9446b6f3972623358f9
+      internalID: -72006581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_89
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87d1f785a3af094591cdf24514d4a0c
+      internalID: -1146289681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_90
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62d31c9a211bdf4388c7e65ac58711b
+      internalID: 1087058896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_91
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e839654ab828544b1537d04b218d44
+      internalID: -327404456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_92
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a580a0dc3c78e42b89ab08bd0f0024
+      internalID: 2133563434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_93
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf65a6aa9b44347a293f8a9576e710
+      internalID: -1292125491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_94
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51d1758ebdffd45b9d35986f676a48
+      internalID: 286265000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_95
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb4a10d7578ca14c8486054e56547c7
+      internalID: -2063357304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853ab8fb642efa42a6775182442ca7d
+      internalID: 1671853015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f655a25b39b7941a17958bebb82e98
+      internalID: -1652155421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_98
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7a4ec6beb060409995f808e1a2e8a
+      internalID: 1326054555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_99
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f1fec9f1622341ae580e2925c0c35
+      internalID: -719167159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_100
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18b6037030ce4d4e859ed56b08ba867
+      internalID: -1909213713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_101
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa844832cc486f4da74c315c133fddc
+      internalID: 1425932710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_102
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac0dba3de57734c8a3610b2bc3e011
+      internalID: -1748966226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_103
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f70f8f42199db40acb685af92f219b
+      internalID: 1176596291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_104
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c1725f78a773418a9c42ba815138e
+      internalID: 350038366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_105
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4058f6024bf03994bb18a3fab294428a
+      internalID: 1403434836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_106
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ea26e283855e4fad45b063b7ceb21
+      internalID: -1925175010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_107
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40002fa16c9886e4c8386744788ec0d9
+      internalID: -1429213047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_108
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9694ba870a54bf04a82acdf38c9f4275
+      internalID: 440952823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_109
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be3fb5633b33a74db7c676d99143718
+      internalID: 377589708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_110
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ed2ddb20969f43924416e83cae3cc
+      internalID: -331881910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_111
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abd0148fd9d8ad4697296ea7dd773ee
+      internalID: -1433315044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029057240bccea46b1b5c59be2f3458
+      internalID: -578420131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36153fb829833ad40ac25bf96058e955
+      internalID: 2096068859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_114
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585d2eea0ecce4144be3c052a54012e4
+      internalID: -694822753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_115
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762acf8dd84b64f4fa651b3b060405a7
+      internalID: -474293187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_116
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736ba3f13fa7b3c4086abe33ee345b7c
+      internalID: 497373462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_117
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195e4b42ccf32ae48ad4d90c3b557d7b
+      internalID: -1728057022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_118
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c70ae073d53d242aa18f0f2dbcfd7c
+      internalID: 1878455460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_119
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7783778aee1f58a4c83d3e34f078c1c6
+      internalID: -321662778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_120
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475c060ffc8200345afc776b03101705
+      internalID: 1474395570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_121
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dd75ddf7f40484f81727b920031a88
+      internalID: -2047665382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_122
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b472eebf720bc94aae942a7ddd82aef
+      internalID: 847837286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_123
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805ec59377def804381bb019e2565d8c
+      internalID: -1739929218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_124
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c42ac2ebf0f4144b82a105c00fb6da
+      internalID: -289574430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_125
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877e0d4d576c3944f80334a4b85592fc
+      internalID: 52603461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_126
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2193c4bdd7ae9348a903b4961efd8f0
+      internalID: 389751210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_127
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdd5d4a091507b4c83ab880a72e618d
+      internalID: -1779936153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671e814d9df02341aa2058526a5b9c5
+      internalID: -426072238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bfc93f9e9fd794ba777db9301e9a36
+      internalID: -468552783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_130
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8339409ba48be774a9c44b0f9145e558
+      internalID: -803187927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_131
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d139f5097c7724fb2b4ed09593ee7d
+      internalID: -2100798787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_132
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caa27ef4d31f844f91bd844d641aef8
+      internalID: 222820609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_133
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5e13095a10e34458f658c9d30675c7
+      internalID: 258357425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_134
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7cf4356c88bd4b805e67cbad399a6
+      internalID: -1083541494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_135
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d685ca871ad941a3307bee19bce6c
+      internalID: -1482728224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_136
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89786bf04ed8a04ebac0d16a584e9c4
+      internalID: 974867999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_137
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99fc4bec5074804f994618a912e1593
+      internalID: -1718561478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_138
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d972f4a467ca496408fa78ff10626cfc
+      internalID: -1906584986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_139
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c30a4153dab19348b41e62704984f16
+      internalID: 386818855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_140
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ea0301521716c4aa44aed1f4b08d94
+      internalID: 19233210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_141
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d74dfa5e406142b492c4637a288a4
+      internalID: -346350695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_142
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d4260a6e627441847352eb253b05f
+      internalID: 1868835006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_143
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20354ef1662366a489b6925ba57d61ca
+      internalID: -1723500386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6f7d1ff18b84b44b9c3b00fb8d6d36
+      internalID: -1367216621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0602a9c0656daeb4b85912f87577e61b
+      internalID: 707318502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_146
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2375f89c42c4d449d7d84a6b9c3e4c
+      internalID: 1484487794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_147
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90515ad66f04b424399e95d103f8684a
+      internalID: 174233748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_148
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3b6a37f6a13c348b784c05e719d9e2
+      internalID: -1727556374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_149
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a3e1871b2ee3a44a55fcc6378934f5
+      internalID: -519768333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_150
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573138be19859b04cabed8d65a8132a0
+      internalID: -574285575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_151
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6a706e2bcef9e449fd6e1058e1d6fc
+      internalID: -97041173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_152
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b0f991afb75b9448f6156f7a8e01d6
+      internalID: 2046990021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_153
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815f70d86afe1914a833dc4aab1e85cc
+      internalID: 1454673830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_154
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623c5fc7bb3022447b46358e80b9c4e9
+      internalID: 195082278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_155
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54eaf8edc7236647879069a32eec6e0
+      internalID: 1867447015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_156
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8439d464fdd764abf082587f2562a5
+      internalID: 1756199710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_157
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e08cb53a2219d748b621be283a1f886
+      internalID: -1298014715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_158
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3753402ad2db964458bb28ade070fa9e
+      internalID: 479065285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_159
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81e21e360f1aa499fb22d6a21aa426
+      internalID: -1614567225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e557e98d59514fbe2d4d8a5d618f5
+      internalID: 445952230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_161
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d1e22732ca75458c6c261ebd22fd1
+      internalID: -655196878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_162
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58472759217d4645be1f6305c443866
+      internalID: 1184154017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_163
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0b52e7819714f42859da212363c884
+      internalID: -1272827381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_164
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ccd371dae953c4ca90b141d602db62
+      internalID: -330944951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_165
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c56cb1a3fd1740ab11053826d3d89
+      internalID: -248657632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_166
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eb852782304bc4888d62e74f28bcd3
+      internalID: -1322704733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_167
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380ea9f8daa4d9d4b870b2fd54da7bf1
+      internalID: 1352459568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_168
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8d53cacfeec534d9a16b41b4173fc3
+      internalID: 1212269566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_169
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c89fe3a229e2074eacc62fb1069f718
+      internalID: 99853376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_170
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a745bb2ead644b9399f4e86804c91
+      internalID: -1218414940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_171
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a4dbc2f018e624baf348114eeb123a
+      internalID: -1295136461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_172
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a394d752e5bb16f44b5ccc01120c6257
+      internalID: -690408887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_173
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c6c49385c157a4c9236f541aa2ec69
+      internalID: 1081712395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_174
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5ba405bc50d2748bb7169193f39549
+      internalID: 2071536964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_175
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7265d5f9a98df7446a2fc0738fe08af8
+      internalID: -1251350857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dfd00d24b8e0d4aafe35fe24a30e18
+      internalID: 1518881609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8385043f97080804199fd3778174125a
+      internalID: -642827244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_178
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999d993886336e418bda41829411b6b
+      internalID: -1639626705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_179
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29023cc8e1a45ac4997b6ed5535620ed
+      internalID: 1711167724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_180
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b16b7013d6fb5498f2329f62ca1c7a
+      internalID: 1357489279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_181
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632940749c81ded4cb97d88b4f74cbbe
+      internalID: -1713769793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_182
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeab5f49c4e5d24f83ac907291d9652
+      internalID: -1266155604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_183
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d3f848a1f9c704bbd18a188c324062
+      internalID: -1636309606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_184
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9490aafbd1ebd5d498bf5913d4bafc05
+      internalID: -362276288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_185
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bae11615910e04db4b590c72ce8798
+      internalID: 1851044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_186
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20baa4839362d934a8f8b21d7af638d2
+      internalID: -1074495154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_187
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6627cf7f82a6244abad46e0771320c
+      internalID: 926564690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_188
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60d4e5538dbf3e4ca80ab5960de67c1
+      internalID: -426813281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_189
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b0ce0fe2a9077479824deae12cfe24
+      internalID: 1024748995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_190
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bff19f65da08b4cbd22780f2ca16a1
+      internalID: 1482991513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_191
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac72387f6cffc8b48abc6a0f666d8fb2
+      internalID: 1700359434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2bd1e163feb394a86dc7bcd0328850
+      internalID: 1142626851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_193
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c0eab818628cb4dbbb33abf3df2b5e
+      internalID: 725480295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba6eea6bad747c4d8d14fdf217d3f9d
+      internalID: 398708141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_195
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3141c99ab9f564abbb400ffdfcb0c3
+      internalID: -1431410035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_196
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2e8e662ad28a34788074c415e52f17
+      internalID: 1429903908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_197
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5fa1809e49ca149be6d2bb3360c767
+      internalID: -1051462514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_198
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c2bba9a0e09164f9fc0675c80c730a
+      internalID: -591119076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_199
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac90e945e300e504c82167c9c51493ed
+      internalID: 1137515676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_200
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa7bd5bd52e7f4ea8dd32309bca94e
+      internalID: 1090406132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_201
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0b083aa5327c418b03b5dc40fec63
+      internalID: 712230943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_202
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e1fde6105131d43bc37ea687301dd5
+      internalID: -1868459703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_203
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95c0b31d73bde4497df3fe865eee48
+      internalID: 1167724587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_204
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b54f5fc34ab3d4c90a2d367c402d61
+      internalID: 114332697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_205
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a618a4d3572ead043b46567e716c598a
+      internalID: 411176239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_206
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7592b705305c784bb160c6aef05144c
+      internalID: 154728783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_207
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7f7fc87e8f4149a7f102d72b93769
+      internalID: -635185815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2565ac179e72da1478a83072c2fb3b81
+      internalID: -696974772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3447f4d1cae72fe4191393032a41e8f0
+      internalID: -314128156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_210
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5aa2f3e16cf514a83970532735b492
+      internalID: -916678779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_211
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8191bd46d7f79d046a337355ae1f0b63
+      internalID: -750816239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_212
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d1292fd678e2649a21787717379705
+      internalID: -1148524242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_213
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df26eea97d56144cba2df1fe45e4cb2
+      internalID: 494525126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_214
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9c25996a60f0b43ae689c7d04683be
+      internalID: 605881962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_215
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce387a674ba868447834f1df53af6b4c
+      internalID: -568820522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_216
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174e56c83c35e214da2addf73799ec3b
+      internalID: 325397052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_217
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0926e0d160e3684bb2c7eeadf3aee53
+      internalID: -1287223187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_218
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e03014257eb77946883b3621a822e2a
+      internalID: -435497393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_219
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaff74a2af751540a34ee8f66e9929d
+      internalID: 1710197790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_220
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c453b205c28f419588d8f0ca57a6c
+      internalID: -1387384495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_221
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dd569f5089f743aa20d9b5d3e3da2
+      internalID: -563469371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_222
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735cfc163559ade449d1fdb35e547b3c
+      internalID: 1501504089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_223
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba3ea0907f8bb741936240a7abb3198
+      internalID: -711583439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3bb05cc460f34baf618593585e6ac
+      internalID: -1625414798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c07a0c6ac8a147bfe271539cc5592
+      internalID: -135304789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_226
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06255de1bbabebe439ef08c4fef42b37
+      internalID: -2072198157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_227
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17cd171b80d7aa46b6b44f4abb592aa
+      internalID: -1776207348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_228
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a134dfba47e16347a68311260aee55f
+      internalID: 1476995504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_229
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7a6c98a310624784c5c21737f3e52
+      internalID: 2000457802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_230
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e2a1c0bb764bb4986300f1a2824843
+      internalID: -317624496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_231
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5ecb70ee1f38c4eb49f7bbb9494ef8
+      internalID: -1045151663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_232
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54abe66a0a635b4488c91709a4661ff1
+      internalID: 518716203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_233
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fa8fdbd83913c48afc8b7d8c50bfc2
+      internalID: 658390474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_234
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a1c6bec5832d14a937dee7bb7d5ad5
+      internalID: 2030978167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_235
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003c8e7369cb704989fc445220a5597
+      internalID: -1896699874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_236
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6f203d17c63284fa015dbda7eaff1b
+      internalID: -847171034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_237
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f04a0cd14b2934c827e3d1c34dc4a1
+      internalID: -130075613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_238
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14faba718199e5544bde18a86b32b325
+      internalID: -1444372585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_239
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5e41774737594ea64c6952a6aeb2a
+      internalID: -1497131824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80db6df47ad85e42b4857421131af53
+      internalID: -1904721992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_241
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1891bc18eb981324ea8f29b4566f7331
+      internalID: -491445504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_242
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5557d84d09d6d044a39562e79584bcc
+      internalID: -198851976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_243
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b6a48122c3604b86edf086260c41f
+      internalID: 1199889052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_244
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf1ad1203fb1ff47917420c86682a4f
+      internalID: -1110895567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_245
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62990816995a3fa40bd80bbdffd6de2e
+      internalID: 568007552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_246
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7243b32dc1f8d9b45a47bfd2f0274eef
+      internalID: 1074208393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_247
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed383bfdae6ca8844957708bf629e84c
+      internalID: -758611353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_248
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05897dc0ee74f3d4aad6cd1468a55897
+      internalID: -1881979814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_249
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de166a78b6b8f04a8f1738e1e1a0912
+      internalID: 1643028993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_250
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132a11c2181e804488062408607c5cb3
+      internalID: -89615118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_251
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f3ee1c1413c9a479a99f3d2cf324e2
+      internalID: 1805923413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_252
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb59a060bd9efe4cb9f38ec6cb7a247
+      internalID: -502946786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_253
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32080f0302e087f4caa5871ef4b76204
+      internalID: -1935861788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_254
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3458b32d5c84f6d44812572cabf8f1f3
+      internalID: -1880711524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_255
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19bf1127afdea418c915ff6f53bf16
+      internalID: 1342461471
       vertices: []
       indices: 
       edges: []
@@ -239,10 +5562,261 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_0: 886556960
-      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_1: 68486713
-      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_2: 1248888574
-      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_3: -1346741464
-      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_4: 1621183288
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_1: 80337736
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_10: 1596448242
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_100: -1909213713
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_101: 1425932710
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_102: -1748966226
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_103: 1176596291
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_104: 350038366
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_105: 1403434836
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_106: -1925175010
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_107: -1429213047
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_108: 440952823
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_109: 377589708
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_11: 498468270
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_110: -331881910
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_111: -1433315044
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_112: -578420131
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_113: 2096068859
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_114: -694822753
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_115: -474293187
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_116: 497373462
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_117: -1728057022
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_118: 1878455460
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_119: -321662778
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_12: 841391187
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_120: 1474395570
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_121: -2047665382
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_122: 847837286
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_123: -1739929218
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_124: -289574430
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_125: 52603461
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_126: 389751210
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_127: -1779936153
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_128: -426072238
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_129: -468552783
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_13: 1326364486
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_130: -803187927
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_131: -2100798787
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_132: 222820609
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_133: 258357425
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_134: -1083541494
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_135: -1482728224
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_136: 974867999
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_137: -1718561478
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_138: -1906584986
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_139: 386818855
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_14: 811930657
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_140: 19233210
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_141: -346350695
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_142: 1868835006
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_143: -1723500386
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_144: -1367216621
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_145: 707318502
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_146: 1484487794
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_147: 174233748
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_148: -1727556374
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_149: -519768333
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_15: 1051901794
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_150: -574285575
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_151: -97041173
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_152: 2046990021
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_153: 1454673830
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_154: 195082278
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_155: 1867447015
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_156: 1756199710
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_157: -1298014715
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_158: 479065285
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_159: -1614567225
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_16: 559926681
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_160: 445952230
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_161: -655196878
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_162: 1184154017
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_163: -1272827381
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_164: -330944951
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_165: -248657632
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_166: -1322704733
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_167: 1352459568
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_168: 1212269566
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_169: 99853376
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_17: -166656141
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_170: -1218414940
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_171: -1295136461
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_172: -690408887
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_173: 1081712395
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_174: 2071536964
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_175: -1251350857
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_176: 1518881609
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_177: -642827244
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_178: -1639626705
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_179: 1711167724
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_18: -599942361
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_180: 1357489279
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_181: -1713769793
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_182: -1266155604
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_183: -1636309606
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_184: -362276288
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_185: 1851044032
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_186: -1074495154
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_187: 926564690
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_188: -426813281
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_189: 1024748995
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_19: -2128051434
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_190: 1482991513
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_191: 1700359434
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_192: 1142626851
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_193: 725480295
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_194: 398708141
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_195: -1431410035
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_196: 1429903908
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_197: -1051462514
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_198: -591119076
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_199: 1137515676
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_2: 558435801
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_20: -1173999922
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_200: 1090406132
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_201: 712230943
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_202: -1868459703
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_203: 1167724587
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_204: 114332697
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_205: 411176239
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_206: 154728783
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_207: -635185815
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_208: -696974772
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_209: -314128156
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_21: 1231778307
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_210: -916678779
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_211: -750816239
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_212: -1148524242
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_213: 494525126
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_214: 605881962
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_215: -568820522
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_216: 325397052
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_217: -1287223187
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_218: -435497393
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_219: 1710197790
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_22: -2119953268
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_220: -1387384495
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_221: -563469371
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_222: 1501504089
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_223: -711583439
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_224: -1625414798
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_225: -135304789
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_226: -2072198157
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_227: -1776207348
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_228: 1476995504
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_229: 2000457802
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_23: 1538644044
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_230: -317624496
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_231: -1045151663
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_232: 518716203
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_233: 658390474
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_234: 2030978167
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_235: -1896699874
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_236: -847171034
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_237: -130075613
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_238: -1444372585
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_239: -1497131824
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_24: -1947693836
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_240: -1904721992
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_241: -491445504
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_242: -198851976
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_243: 1199889052
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_244: -1110895567
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_245: 568007552
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_246: 1074208393
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_247: -758611353
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_248: -1881979814
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_249: 1643028993
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_25: 1192778923
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_250: -89615118
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_251: 1805923413
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_252: -502946786
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_253: -1935861788
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_254: -1880711524
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_255: 1342461471
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_26: 2094008
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_27: 852043740
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_28: -968859601
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_29: -591305398
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_3: 295286059
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_30: 430731036
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_31: -1277265425
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_32: -667973466
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_33: -1683028162
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_34: 276236694
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_35: -1294721992
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_36: 217532028
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_37: 1270778152
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_38: 1204071289
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_39: -2088458687
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_4: 1538956488
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_40: 858212614
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_41: 1698218745
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_42: -2134848610
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_43: 1514479705
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_44: 500608433
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_45: 1882280551
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_46: 812968608
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_47: -908488463
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_48: -621895505
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_49: 224237598
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_5: -1941850602
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_50: 1652981279
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_51: -1859386224
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_52: -1465057746
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_53: 1403382216
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_54: -1758600068
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_55: 520759902
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_56: -1116226290
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_57: 1184840272
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_58: -278594455
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_59: 942192322
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_6: 493157159
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_60: -1112568446
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_61: 739618346
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_62: -651482510
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_63: 2071266738
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_64: 693312492
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_65: 708586039
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_66: 1837569618
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_67: 1367622395
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_68: 1962036812
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_69: 200645700
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_7: 682024603
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_70: 1716754622
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_71: 1273547546
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_72: -2110498647
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_73: -1064870921
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_74: 672952746
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_75: -111650320
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_76: -244249357
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_77: -998567182
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_78: 771083034
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_79: -1147900935
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_8: 683911040
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_80: 228532453
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_81: -1967578789
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_82: 1144521508
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_83: 47915199
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_84: 1295056747
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_85: 1361184321
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_86: 402994780
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_87: 1055642329
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_88: -72006581
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_89: -1146289681
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_9: -2136913910
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_90: 1087058896
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_91: -327404456
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_92: 2133563434
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_93: -1292125491
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_94: 286265000
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_95: -2063357304
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_96: 1671853015
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_97: -1652155421
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_98: 1326054555
+      1641176881_2-abrakadabra-fun-p-vse-teksturi-blokov-mainkraft-3_99: -719167159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

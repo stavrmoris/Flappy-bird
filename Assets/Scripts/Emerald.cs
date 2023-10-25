@@ -7,8 +7,16 @@ public class Emerald : MonoBehaviour
 {
     [SerializeField] private Coins _coinsMananger;
     [SerializeField] private float _speed;
+    private GameController _score;
 
-    private void Start() => _coinsMananger = GameObject.Find("CoinsMananger").GetComponent<Coins>();
+    private void Start()
+    {
+        _coinsMananger = GameObject.Find("CoinsMananger").GetComponent<Coins>();
+        _score = GameObject.Find("Chicken").GetComponent<GameController>();
+        
+        if (_score.score >= 100)
+            _speed *= _score.score / 100;
+    }
 
     private void Update() => transform.position = Vector2.MoveTowards(transform.position, transform.position - transform.right, _speed * Time.deltaTime);
 

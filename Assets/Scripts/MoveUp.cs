@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class MoveUp : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class MoveUp : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        YandexGame.FullscreenShow();
     }
     
     void OnMouseDown()

@@ -19,7 +19,7 @@ public class Spawn : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(Delay);
-            randPosY = Random.Range(-2.71f, 1.13f);
+            randPosY = Random.Range(-0.29f, 1.6f);
             Pos = new Vector3(7, randPosY, 0);
             Instantiate(obj, Pos, Quaternion.identity);
             Debug.Log("- заспавнился"+ randPosY);
