@@ -38,19 +38,25 @@ public class GameController : MonoBehaviour
             scoreText2.text = score.ToString(CultureInfo.InvariantCulture);
         recordScoreText.text = recordScore.ToString(CultureInfo.InvariantCulture);
         coinsText.text = coinsMananger.coins.ToString(CultureInfo.InvariantCulture);
-        
-        if(_obj.position.y > 5.04)
+
+        if (recordScore < score)
         {
+        PlayerPrefs.SetFloat("RecordScore", score);
+        }
+    }
+
+    void Update()
+    {
+        if(_obj.position.y > 2.79)
+        {   Debug.Log("Я УЛЕТЕЛА");
             kz.CollisionKillZone = true;
             Destroy(gameObject);
             
         }
-        
-        if (recordScore < score)
-        {
-            PlayerPrefs.SetFloat("RecordScore", score);
-        }
     }
+        
+
+    
 
     void OnCollisionEnter2D(Collision2D col)
     {
